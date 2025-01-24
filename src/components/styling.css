@@ -1,0 +1,146 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .navbar Link :hover{
+    background-color: #ffa500;
+    transition: ease-in-out 1s;
+  }
+  
+  .home {
+    padding: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    text-decoration: solid;
+  }
+  
+  .menu :link{
+    text-decoration: none;
+    flex: 1;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+
+  }
+  .menu-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    background-image: url(./download.jpeg);
+  }
+  .menu-item1 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    background-image: url(./download\ \(1\).jpeg);
+  }
+  .menu-item2 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    background-image: url(./download.png);
+  }
+  .menu-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .option {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+    background-image: url(kfc.png);
+  }
+  .option1 {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+    background-image: url(pizzahut.png);
+  }
+  .option2 {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+    background-image: url(meatTwo.jpeg);
+  }
+  .select-table {
+    padding: 20px;
+  }
+  
+  .select-table ul {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .select-table button {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    text-align: left;
+  }
+
+  .select-table ul :hover{
+    background-color: #7f7c7c;
+    transition: ease-in-out 1s;
+  }
+  .select-date {
+    padding: 50px;
+    
+  }
+  
+  .date-selector,
+  .time-selector {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  button.active {
+    background-color: #ffa500;
+    color: white;
+  }
+
+ 
+  
+  
